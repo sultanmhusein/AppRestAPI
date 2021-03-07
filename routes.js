@@ -8,4 +8,7 @@ module.exports = function(app) {
 
     app.route('/showDataMahasiswa')
         .get(myjson.showDataMahasiswa);
+
+    app.route('/showDataMahasiswa/:id')
+        .get(myjson.showDataMahasiswaId);
 }
