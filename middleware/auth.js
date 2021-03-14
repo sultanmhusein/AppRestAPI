@@ -92,3 +92,7 @@ exports.login = function(req, res) {
         }
     })
 }
+
+exports.halamanRahasia = function(req, res){
+    response.ok("Halaman Ini hanya untuk user role 2", res)
+}
